@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Ramadan Guide"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Ramadan: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="1.Ramadan, the ninth month of the Islamic calendar, is one of the most sacred times for Muslims. During this month, Muslims observe a strict daily fast from dawn until sunset. They are not allowed to eat or drink, not even water, during these daylight hours. Fasting is a private act of worship engendering nearness to God, but it is also a form of spiritual discipline and a means to empathizing with those less fortunate. The fast is broken at sundown with a meal called iftar, often shared among family and friends. Many will gather after nightfall in the mosque for special communal prayers called tarawih."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="2.During Ramadan many Muslims go to the mosque and spend several hours praying. In addition to the five daily prayers that are part of the core of Islam, Muslims recite a special prayer called the Tarawih prayer (night prayer)."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="3.On the evening of the 27th day of the month of Ramadan, Muslims observe a special night called Layat al-Qadr sometimes referred to as the Night of Power. It is believed that on this night Muhammad first received the Holy Qur'an."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="40dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</ScrollView>

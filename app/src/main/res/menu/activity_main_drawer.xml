@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_access_time_24"
+            android:title="SUHOOR/IFTAR TIME" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_access_time_filled_24"
+            android:title="PRAYER TIMES" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/aaa"
+            android:title="99 NAMES OF ALLAH" />
+        <item
+            android:id="@+id/fragmentOwn"
+            android:icon="@drawable/dua"
+            android:title="DUAS" />
+        <item
+            android:id="@+id/fragmentOwn2"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="RAMADAN GUIDE" />
+    </group>
+</menu>
